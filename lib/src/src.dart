@@ -27,3 +27,17 @@ class _FuctionState extends State<Fuction> {
     return const Placeholder();
   }
 }
+
+class TextAdd extends StatefulWidget {
+  const TextAdd({super.key});
+
+  @override
+  State<TextAdd> createState() => _TextAddState();
+}
+
+class _TextAddState extends State<TextAdd> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
