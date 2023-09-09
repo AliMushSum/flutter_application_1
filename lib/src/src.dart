@@ -13,3 +13,17 @@ class _SrvWidState extends State<SrvWid> {
     return const Placeholder();
   }
 }
+
+class Fuction extends StatefulWidget {
+  const Fuction({super.key});
+
+  @override
+  State<Fuction> createState() => _FuctionState();
+}
+
+class _FuctionState extends State<Fuction> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
